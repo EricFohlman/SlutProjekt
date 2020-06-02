@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="sv">
+	<head>
+		<meta charset="UTF-8">
+		<link href="MusikStyle.css" rel="Stylesheet">
+		<title>Musikhistoria</title>
+	</head>
+	<body id="musik"> <!--Klass som ändrar allt i sidans body och i detta fallet är det text färg osv-->
+		<header>
+			<h1><a href="Index.html">Hem</a></h1>
+			<nav>
+				<ul>
+					<li>
+						<a class="active" href="Musikhistoria.html">Musikhistoria</a><!--Den activa länken på sidan har inverterad färg än de andra-->
+					</li>
+					<li>
+						<a href="Instrument.html">Instrument</a>
+					</li>
+					<li>
+						<a href="Musikstilar.html">Musikstilar</a> 
+					</li>
+				</ul> 
+			</nav>
+		</header>
+		<div class="UnderMeny">	<!--Detta är en class för hur min under meny ska se ut vilket är olika på olika sidor eftersom de har olika många externa sidor-->
+			<nav>
+				<ul>
+					<li>
+						<a class="active">Vad är musik</a> <!--Den aktiva har inerterade färger som i global menyn-->
+					</li>
+					<li>
+						<a href="Musikensursprung.html">Musikensursprung</a> 
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<main class ="wrapper2"><!--en wrapper som formar sidan i två sektioner-->
+			<section  class="border">
+				<p>Musik är ett begrepp som inte har någon generellt accepterad definition. Inom musikhistorien kan man konstatera att frågan om vilka typer av verk som ska få kallas musik har förändrats många gånger. Som redan nämnts syftade det grekiska begreppet mousiké techné på vad vi idag skulle betrakta som skilda konstformer.</p>
+			</section>		
+			<section> <!--I denna sektionen har jag en video ruta och text som heter iframe och det är enyoutube flik i min sida som jag har bäddat in-->
+				<iframe src="https://www.youtube.com/embed/gK2Rw_ydz7o"></iframe><!--Ifram utan presentation attribut för att få den rätt storlek ändras det i css med class eller typ selektor och detta är en video ruta-->
+				<p class="border">Top låtar 2020<a href="https://www.youtube.com/watch?v=6miSl1Ve6uw" target="_blank">Länk till youtube</a>.</p>
+			</section>	
+		</main>
+	</body>
+</html>
